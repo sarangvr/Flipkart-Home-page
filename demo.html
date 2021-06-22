@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap CSS -->
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--cloud taken font-->
+        <link rel="shortcut icon" href="img/icon/flipkart_icon-icons.com_62718.ico">    <!-- Icon file uploaded -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+        
+        
+        <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
+        
+        
+        <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <!-- Top header style given in style-->
+         <!--Page full size given in style-->
+         <!--Padding given to remove the gap between-->
+         <!--main3 box shadow formula X Y B-blur S-spread C-color-->
+         <!--Carousel is the slider for main1-->
+         <!--ccontrol>>arrow of main1-->
+         <!---->
+         <!---->
+        <style>
+          
+            
+            footer{
+              height: 409px;
+              border: 1px dashed blue;
+              background-color:#172337 ;
+              margin-left: 7px;
+              margin-right: 7px;
+            }
+            .header_top{
+              height: 56px;
+              padding-top: 11px;
+              padding-left: 197px;
+              background-color: #2874f0;
+            }
+            .header_bottom{
+              height: 115px;
+              background-color: #ffffff;
+              border-bottom: 1px solid #caccce;
+            }
+            body{
+              background-color: #f1f3f6;
+              font-family: 'Roboto', sans-serif;
+            }
+            div.a_cont{
+              width:99%;
+              padding: 0px;
+              height: 2127px;;
+              
+            }
+            .a_main1{
+              height: 245px;
+              margin-top: 8px;
+              margin-bottom: 7px;
+
+            }
+            .a_main2{
+              margin-top: 12px;
+              border-top: 1px solid #ebebeb;
+              box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.5);
+            }
+            .a_main2 .row{
+              height: 451px;
+              margin: 0px;
+            }
+            .a_main2 .row > div{
+              padding: 0px;
+            }
+            .a_main2_c10_top{                                       /*Deals of the Day*/
+              height: 79px;
+              font-size: 22px;
+              padding-top: 25px;
+              padding-right: 17px;
+              padding-left: 17px;
+              margin-bottom: 2px;
+            }
+            
+            .a_main3{
+              
+              margin-top: 2px;
+              padding-left: 3px;
+              padding-right: 3px;
+              
+              
+            }
+            .a_main3 > .row > div{
+              
+              padding: 8px 12px;
+              height: 275px;
+              }
+            .a_main4{
+              
+              margin-top: 5px;
+              background-color: #fff;
+              height: 273px;
+            }
+            
+            /* Make the image fully responsive */
+            .carousel-inner img {
+              width: 100%;
+              height: 50%;
+              
+            }
+            .a_ccontrol{
+              width: 3%;
+              opacity: 1;
+              background: #fff;
+              height: 42%;
+              margin-top: 63px;
+
+            }
+            .a_ccontrol i{
+              color: #212121;
+              background: #fff !important;
+              font-size: 1.5em;
+            }
+            #myCarousel .carousel-control-prev{
+              border-top-right-radius: 4px;
+              border-bottom-right-radius: 4px;
+
+            }
+            #myCarousel .carousel-control-next{
+              border-top-left-radius: 4px;
+              border-bottom-left-radius: 4px;
+            }
+            .a_bcwhite{
+              background-color: #fff;
+            }
+            .cbox{
+              width: 100%;
+              height: 355px;
+            }
+            .search_form{
+              width: 563px;
+              height: 35px;
+              
+              background: #fff;
+              margin-left: 13px;
+              margin-right: 200px;
+              box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+              position: relative;
+            }
+            .search_form input[type=text]{
+              width: 495px;
+              margin-left: 16px;
+              margin-top: 8px;
+              border: none;
+              font-size: 1.5em;
+            }
+            .search_form input:focus{             
+              outline: none !important;
+              box-shadow: none;
+            }
+            .search_form .fa-search{                    /*outline of magnifier icon in search box*/
+              font-size: 2em;
+              color: #2874f0;
+              
+            }
+            .ep{
+              font-style:italic;
+              font-size: 1.1em;
+              
+            }
+            .explore{
+              color: #fff;
+            }
+            .plus{
+              color: #ffe500;
+            }
+            .a_ep{
+              position: relative;
+              top: -2px;
+            }
+            .a_top_nav a{                 /*button properties*/
+              color: #fff;
+              font-weight: bolder;
+            }
+            .a_top_nav >li{
+              position: relative;
+              padding-bottom: 9px;
+            }
+            .a_top_nav > li:hover > .submenu {             /*Mouse show and display drop box for More*/
+              display: block;
+            } 
+            .a_top_nav > li:hover > .submenulogin{          /*Mouse show and display drop box for Login*/
+                display: block;
+            }
+            
+            .nav-link{                                              /*More*/
+                background-color: #2874f0;
+                    border: none;
+                    color: white;
+                    padding: 3px 40px;
+                    font-size: 16px;
+                    margin: 2px 4px;
+                    cursor: pointer;
+
+            }
+            
+            .button1{                                                 /*LOGIN*/
+                  background-color: #fff;
+                  border: none;
+                  color: #2874f0;
+                  padding: 3px 40px;
+                  
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 2px 4px;
+                  cursor: pointer;
+            }
+            
+            
+                    .btn1 {                                          /*Cart added*/
+                    background-color: #2874f0;
+                    border: none;
+                    color: white;
+                    padding: 3px 40px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    }
+                    .btn{                                          
+                    background-color: #fff;
+                    border: none;
+                    color: white;
+                    padding: 7px 7px;
+                    font-size: 10px;
+                    cursor: pointer;
+                    }
+                    .btn3{                                
+                      background-color: #2874f0;
+                    border: none;
+                    color: white;
+                    padding: 3px 40px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    }
+                    .btn3:hover{                        /*Removed Underline from View All*/
+                      color: #fff;
+                      text-decoration: none;
+                    }
+                    a:hover{                                           
+                      
+                    }
+                    .submenu{                           /*More Drop down box for More*/
+                        width: 301px;                   /*Drop box size adjuster*/
+                        height: 316px;
+                        background: #fff;
+                        position: absolute;
+                        top: 45px;
+                        bottom: 0px;
+                        left: 0px;
+                        z-index: 1000;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        display: none;                   
+                    }
+                    .submenulogin{
+                        width: 301px;                   /*Drop box size adjuster for Login*/
+                        height: 316px;
+                        background: #fff;
+                        position: absolute;
+                        top: 45px;
+                        bottom: 0px;
+                        left: 0px;
+                        z-index: 1000;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        display: none;                  
+                    }
+                    .submenu a{                         /*More Drop box anchor*/
+                      color: #282829;
+                      height: 59px;
+                      line-height: 46px;
+                      border-bottom:1px solid #efeff0;
+                      background-color: #fff;         /*More box Bg color*/
+                    }
+                    .submenulogin a{                    /*Login Drop box anchor*/
+                      color: #282829;
+                      height: 59px;
+                      line-height: 46px;
+                      border-bottom:1px solid #efeff0;
+                      background-color: #fff;         /*Login box Bg color*/
+                    }
+                    .submenu a:hover{                   
+                      cursor: pointer;
+                      background: #faf9f9;            /*shade for More drop box select element*/
+                    }
+                    .submenulogin a:hover{                   
+                      cursor: pointer;
+                      background: #faf9f9;            /*shade for Login drop box select element*/
+                    }
+                    .submenu i{                         /*More icon color*/
+                      color: #2874f0;
+                      margin-right: 10px;
+                    }
+                    .submenulogin i{                         /*Login icon color*/
+                      color: #2874f0;
+                      margin-right: 10px;
+                    }
+                    /* Header bottom css code */
+
+                    .category-row{
+                        display: flex;
+                        justify-content: space-evenly;
+                        width: 100%;
+                        
+                        height: auto;
+                        margin-top:10px;
+                        text-align: center;
+                    }
+                    .category-col{
+                        padding: 10px 0px;
+                        cursor: pointer;
+                        color: rgb(85, 83, 83);
+                    }
+
+
+                    .category-col img{
+                        width: 64px;
+                        height: 64;
+                    }
+
+                    .somediv ul{
+                        
+                        color: #282829;
+                        font-size: 15px;
+                        list-style: none;
+                        line-height: 46px;
+                        display: none;
+                        position: absolute;
+                        background-color:white ;
+                        min-width: 160px;
+                        box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.2);
+                        padding: 12px 16px;
+                        z-index: 1;
+                    }
+                    .category-col ul{
+                        display: none;
+                        
+                    }
+                    .category-col h5:hover {
+                        color: #2874f0;
+                    }   
+                    .category-col:hover ul{
+                        display: block;  
+                    }
+                    .somediv li:hover{/* Hover shade effect on header bottom list*/
+                        background-color: #faf9f9;
+                    }
+                    .arrow {                            /*Arrow for Header Bottom Buttons*/
+                    border: solid black;
+                    border-width: 0 1px 1px 0;
+                    display: inline-block;
+                    padding: 3px;
+                    position: absolute;
+                    margin-top: 2px;
+                    margin-left: 5px;
+                    }
+                    .down {                                 /*Arrow for Header Bottom Buttons*/
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    }
+                    .a_a2_lefta{                            /*Main2 to image properties*/
+                        display: block;
+                        height: 100%;
+                        overflow: hidden;
+                        font-size: 1.5em;
+                        
+                        padding: 40px 70px;                 /*Main2 surround space of image adjust*/
+                    }
+                    .a_a2_lefta > div{
+                        margin-bottom: 7px;
+                        margin-top: 5px;
+                    }
+                    .a_a2_lefta:hover{                      /*Main 2 Text Hover then gets underlined*/
+                        text-decoration: none;
+                    }
+                    .a_a2_lefta:hover img{                  /*Image zoom on hover Main2*/
+                        transform: scale(1.05,1.05);
+                    }
+                    .a_main2 > .row > div{
+                      padding: 0px 7px;
+                    }
+                    #myCarousel2 .a_ccontrol{             /*Main2 slider box shadow*/
+                      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+                    }
+                    #myCarousel2 .a_ccontrol:hover{             /*Main2 slider box shadow*/
+                      box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+                    }
+                    #myCarousel2{                         /*Main2 slider box shadow*/
+                      overflow: hidden;
+                    }
+                    .a_search_list{                       /*Search box down list properties*/
+                      width: 563px;
+                      height: 313px;
+                      background: #fff;
+                      position: absolute;
+                      top: 35px;
+                      left: 0px;
+                      z-index: 2000;
+                      box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+                      display: none;
+                    }
+
+                    
+                    
+                    
+                   
+                        
+
+                                
+        </style>
+  </head>
+  <body>
+            <header>
+              <div class="header_top">
+               <a>
+                 <a href="#" class="float-left">
+                   <img width="75" src="img/flipkart.png">
+                   <div class="a_ep">
+                    <span class="ep explore">Explore</span><span class="ep plus"><b> Plus</b></span>
+                    <img width="10" src="img/plus.png">
+                   </div>
+                   
+                 </a>
+               </a>
+                <form class="search_form float-left">
+                  <input class="search_box" type="text" name="search" placeholder="Search for products,brands and more">
+                  <button type="submit" class="btn float-right">
+                    <i class="fa fa-search"></i>
+                  </button>
+                  <div class="a_search_list"></div>                             
+                </form>
+                      <ul class="nav nav-pills a_top_nav">
+                          <!--Login-->
+                        <li class="nav-item">
+                         
+                          <button class="button1">Login</i></button>
+
+                          <ul class="nav flex-column submenulogin">
+                            <li class="nav-item">
+
+                              
+                              <a class="nav-link" href="#" style="color: #2874f0;">&nbsp;&nbsp;New customer?&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp; Sign Up</a>
+                              
+                            
+
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa fa-user"></i>My Profile</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa fa-plus"></i>Flipkart Plus Zone</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa fa-first-order"></i>Orders</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fa fa-heart"></i>Wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-trophy"></i>Rewards</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-gift"></i>Gift Cards</a>
+                              </li>
+                          </ul>
+
+                        </li>
+
+
+
+                            <!--More-->
+                        <li class="nav-item">
+                            
+                            <button class="nav-link"><b>More</b><i class="fa fa-chevron-down"></i></button>
+
+                            <ul class="nav flex-column submenu">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-bell"></i>Notification Preferences</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-briefcase"></i>Sell on Flipkart</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-question-circle"></i>24x7 Customer Care</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-line-chart"></i>Advertise</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-download"></i>Download App</a>
+                              </li>
+                            </ul>
+                        </li>
+
+                        <!--Cart-->
+                        <li class="nav-item">
+                            <button class="btn1"><i class="fa fa-shopping-cart"></i><b>Cart</b></button>
+                        </li>
+                        
+                      </ul>
+              </div>
+
+               <!--Header Bottom-->
+              <div class="header_bottom">
+              <div class="somediv">
+                <section>
+                    <div class="category-row">
+                        <div class="category-col">
+                           <img src="img/header bottom/top offers.png" alt="">
+                           <h5>Top Offers</h5>
+                        </div>
+                        <div class="category-col">
+                            <img src="img/header bottom/Grocery.png" alt="">
+                            <h5>Grocery</h5>
+                        </div>
+                        <div class="category-col">
+                            <img src="img/header bottom/Mobiles.png" alt="">
+                            <h5>Mobile</h5>
+
+                        </div>
+                        <div class="category-col">
+                            <img src="img/header bottom/Fashion.png" alt="">
+                                <h5>fashion <i class="arrow down"></i></h5>
+                                <ul>
+                                    <li>Men's Top Wear</li>
+                                    <li>Men's Bottom Wear</li>
+                                    <li>Women Ethnic</li>
+                                    <li>Women Western</li>
+                                    <li>Men Footwear</li>
+                                    <li>Women Footwear</li>
+                                </ul>
+                         </div>
+                         <div class="category-col">
+                            <img src="img/header bottom/Electronics.png" alt="">
+                            <h5>Electronics <i class="arrow down"></i></h5>
+                            <ul>
+                                <li>Audio</li>
+                                <li>Cameras & Accessories</li>
+                                <li>Computer Peripherals</li>
+                                <li>Gaming</li>
+                                <li>Health & Personal Care</li>
+                                <li>Laptop Accessories</li>
+                            </ul>
+                         </div>
+                         <div class="category-col">
+                            <img src="img/header bottom/Home.png" alt="">
+                            <h5>Home <i class="arrow down"></i></h5>
+                            <ul>
+                                <li>Home Furnishing</li>
+                                <li>Living Room</li>
+                                <li>Kitchen & Dining</li>
+                                <li>Bedroom</li>
+                                <li>Home decor</li>
+                                <li>Tools & Utility</li>
+                            </ul>
+                         </div>
+                         <div class="category-col">
+                            <img src="img/header bottom/Appliances.png" alt="">
+                            <h5>Appliances <i class="arrow down"></i></h5>
+                            <ul>
+                                <li>Televisions</li>
+                                <li>Washing Machine</li>
+                                <li>Air Conditioners</li>
+                                <li>Refrigerators</li>
+                                <li>Kitchen Appliances</li>
+                                <li>Home Appliances</li>
+                            </ul>
+                         </div>
+                         <div class="category-col">
+                            <img src="img/header bottom/Travel.png" alt="">
+                            <h5>Travel</h5>
+                         </div>
+                         <div class="category-col">
+                            <img src="img/header bottom/Beauty, Toys & More.png" alt="">
+                            <h5>Beauty, Toys & More <i class="arrow down"></i></h5>
+                            <ul>
+                                <li>Beauty & Personal Care</li>
+                                <li>Men's grooming</li>
+                                <li>Food & Drinks</li>
+                                <li>Nutrition & Health Care</li>
+                                <li>Baby Care</li>
+                                <li>Toys & School Supplies</li>
+                                <li>Sports & Fitness</li>
+                                <li>Books & Music</li>
+                            </ul>
+                         </div>
+                    </div>
+                </section>
+              </div>
+              </div>
+
+            </header>
+
+            <div class="container-fluid a_cont">
+
+              <div class="a_main1">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/Banner plate auto scroll/banner1.jpg" alt="Los Angeles" width="1910" height="355">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Banner plate auto scroll/banner2.jpg" alt="Chicago" width="1910" height="355">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Banner plate auto scroll/banner3.jpg" alt="New York" width="1910" height="355">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Banner plate auto scroll/banner4.jpg" alt="New York" width="1910" height="355">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Banner plate auto scroll/banner5.jpg" alt="New York" width="1910" height="355">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Banner plate auto scroll/banner6.jpg" alt="New York" width="1910" height="355">
+                    </div>
+                  </div>
+                  
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev a_ccontrol" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-chevron-left"></i>
+                  </a>
+                  <a class="carousel-control-next a_ccontrol" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="a_main2">
+                <div class="row">
+                  <div class="col-md-10 a_bcwhite">
+                    <div class="a_main2_c10_top">
+                      <div class="float-left">
+                        <h1 class="float-left">Deals of the Day</h1>
+                         <!-- Display the countdown timer in an element -->
+                         <div style="margin-left: 20px;" class="float-left">
+                           <img width="20px" src="img/main2/timer/timer.svg">&nbsp;
+                            <span id="a_countdown" class="text-secondary"></span>
+                         </div>
+                        
+                      </div>
+                      
+
+                     
+
+                      <a href="#" class="btn3 btn-primery btn-sm float-right">View All</a>
+                    </div>
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+                      <!-- The slideshow -->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="cbox">
+                            <div class="row">
+                              <div class="col">
+                                  <a href="#" class="text-center a_a2_lefta">
+                                      <img width="150" height="150" src="img/main2/sparks.jpeg">
+                                      <div class="text-body"><strong>Sparx, Aadidas</strong></div>
+                                      <div class="text-success">From ₹199</div>
+                                      <div class="text-secondary">Shoes, Sandal & more</div>
+                                  </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/amni divastri and more.jpeg">
+                                    <div class="text-body"><strong>Amni Divastri and More</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/best deals on kids cloths.jpg">
+                                    <div class="text-body"><strong>Best Deals on Kids Cloths</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/makeup best sellers.jpeg">
+                                    <div class="text-body"><strong>Makeup Best sellers</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/power and hand tools.jpeg">
+                                    <div class="text-body"><strong>Power and Hand Tools</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="cbox">
+                            <div class="row">
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/sports Tshirts.jpeg">
+                                    <div class="text-body"><strong>Sports Tshirts</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/stools and more.jpeg">
+                                    <div class="text-body"><strong>Stools and More</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/yoga essentials.jpeg">
+                                    <div class="text-body"><strong>Yoga Essentials</strong></div>
+                                    <div class="text-success">From ₹199</div>
+                                    <div class="text-secondary">Deal Of The Day</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/itel-ace.jpeg">
+                                    <div class="text-body"><strong>Itel Feature Phones</strong></div>
+                                    <div class="text-success">₹100 Off  Itel phones</div>
+                                    <div class="text-secondary">Great Deal on feature phones</div>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <a href="#" class="text-center a_a2_lefta">
+                                    <img width="150" height="150" src="img/main2/flip cover.jpeg">
+                                    <div class="text-body"><strong>Designer Flip Covers</strong></div>
+                                    <div class="text-success">Extra 10% Off</div>
+                                    <div class="text-secondary">For All Top Models</div>
+                                </a>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        </div>
+                      </div>
+                      
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev a_ccontrol" href="#myCarousel2" data-slide="prev">
+                        <i class="fa fa-chevron-left"></i>
+                      </a>
+                      <a class="carousel-control-next a_ccontrol" href="#myCarousel2" data-slide="next">
+                        <i class="fa fa-chevron-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-2">                <!--Main2 Right side Ads-->
+                    <a href="#">
+                        <img width="244" height="451" class="" src="img/main2/right side ad/tv and essentials.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="a_main3">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img class="img-fluid" src="img/main3/one.jpg">
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img class="img-fluid" src="img/main3/two.jpg">
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img class="img-fluid" src="img/main3/three.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="a_main4">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="#">
+                      <img width="1503" height="272" src="img/main4/banner main4.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <footer>
+
+            </footer>
+
+            <!-- Optional JavaScript; choose one of the two! -->
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="js/jquery-3.6.0.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            
+
+                        <!--Count Down Timer...............!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+              
+              // Update the count down every 1 second
+              var x = setInterval(function() {
+              
+                // Get today's date and time
+                var now = new Date().getTime();
+              
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+              
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              
+                // Display the result in the element with id="demo"
+                document.getElementById("a_countdown").innerHTML =  hours + ": "+ minutes + ": " + seconds + ": " +" Left";
+                
+              
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("a_countdown").innerHTML = "EXPIRED";
+                }
+              }, 1000);
+
+              /*search box*/
+              $(document).on('focus','.search_box',function(){
+                //alert('ok');
+                $('.a_search_list').show();
+              });
+              $(document).on('blur','.search_box',function(){
+                //alert('ok');
+                $('.a_search_list').hide();
+              });
+
+              </script>
+
+
+  </body>
+</html>
